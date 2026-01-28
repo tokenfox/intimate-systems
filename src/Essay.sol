@@ -5,6 +5,7 @@ import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
 import { SSTORE2 } from "solady/utils/SSTORE2.sol";
 import { Sculpture } from "./Sculpture.sol";
 
+// TODO
 contract Essay is Sculpture, Ownable {
     address private pointer1;
     address private pointer2;
